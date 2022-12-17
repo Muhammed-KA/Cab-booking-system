@@ -1,0 +1,154 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs22\lang9\par
+
+\pard\sa200\sl276\slmult1\qc\fs32 CAB SERVICE BOOKING\par
+\par
+
+\pard\sa200\sl276\slmult1\fs28 Introduction: \par
+\b0\fs22\par
+The Cab Service Management system is the online service which will automate the process of booking a cab and will facilitate both the user and the driver with reduced time and efforts. Both driver and user can register into the system with several information's. The user can login to the system and request for booking a cab on their required date and time, providing all necessary information. The fare will be calculated and user should confirm it. The rider enters their destination into the search box; reviews each ride option for vehicle size, price, and estimated drop-off time; chooses the desired option; then confirms the pickup. They can also book the cab in advance. A nearby driver can view and choose to accept the request. Then the driver can provide service to the user on the specific date and time. Finally, the user will have an opportunity to give feedback for the service they got. The driver can check it and take appropriate action for the future improvements. \par
+\par
+\b\fs28 Purpose: \par
+\b0\fs22\par
+The purpose of this SRS document is to specify software requirements of the Cab Service Management System. It is intended to be a complete specification of what functionality the system provides. The main purpose of the system is to automate the process of booking a cab.  \par
+\par
+\par
+\b\fs28 Modules\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0\fs22 Customer \par
+{\pntext\f2\'B7\tab}Admin \par
+{\pntext\f2\'B7\tab}Driver\par
+{\pntext\f2\'B7\tab}Payment(finance)\par
+{\pntext\f2\'B7\tab}Location of car and customer\par
+
+\pard\sa200\sl276\slmult1\fs24\par
+\b\fs28 Functionality\b0\fs22\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Login\par
+{\pntext\f2\'B7\tab}Registration\par
+{\pntext\f2\'B7\tab}Search car\par
+{\pntext\f2\'B7\tab}Book a ride\par
+{\pntext\f2\'B7\tab}Payment\par
+{\pntext\f2\'B7\tab}Invoice\par
+{\pntext\f2\'B7\tab}Gps system to track nearby car\par
+{\pntext\f2\'B7\tab}Amount calculation based on distance travelled\par
+{\pntext\f2\'B7\tab}Option to cancel the ride or change the time of ride\par
+
+\pard\sa200\sl276\slmult1\par
+\b\fs32 Requirements\fs24\par
+\b0\fs22\par
+
+\pard\sa160\sl259\slmult0\b\fs28\par
+       Login\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\b0\fs24 Once the \b login\b0  page is open it should have the fields for the user to enter username and password. If it is a new user, then there should be an option to \b sign up\b0 . Login page should have option to Login using Gmail or Google Authentication.A login page should need\b  forgot password \b0 option,using forget password they can change the password and login again.\par
+
+\pard\sa160\sl259\slmult0\b\fs28        Sign-Up   \par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\b0\fs24 When a new user signup, Details like Name, Email, Password, Mobile number should be collected. After signup There should be an option to go to Login page. There should have an option to validate the password to check whether the password is strong or weak. sign up page should also validate that a registered user can't register again.\par
+
+\pard\sa160\sl259\slmult0         \b\fs28 Home Page\b0\fs24\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0 Home page should need a search option. In the search option the user needs to enter the travelling destination, starting location, time and no of persons. Also, navbar should have links to navigate to different links. The footer of the website should have options for help section and contact information.Home page should contain user profile.User can rate driver,car,overall experience of ride.\par
+
+\pard\sa160\sl259\slmult0         \b\fs28 Booking Page\b0\fs24\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0 Booking page should need the permission to read the user location or have option to enter location manually. After entering the starting and ending location, the customer can choose the vehicle for the journey. \par
+
+\pard\sa160\sl259\slmult0          \b\fs28 Payment page\b0\fs24\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0 After booking page will be redirected for payment. The payment page should calculate the fare between 2 locations and add the corresponding tax of the ride. The Payment page should have the option to pay by using wallets like Google pay and Phone pe etc. invoice will be generated and user have the option to download invoice for further references.\par
+
+\pard\sa160\sl259\slmult0         \b\fs28 Orders Page\b0\fs24\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0 The Order page should have details about the previous orders of the customer and there should be an option for rating the cab driver after a successful ride. Also, there should be an option to register the complaint or report the cab details to the admin. if user needs to cancel the order there should have an option to cancel the order.after cancellation amount paid by user should be refunded to the user.c\par
+
+\pard\sa160\sl259\slmult0          \b\fs28 Admin page\b0\fs24\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0 Admin login,using admin name and password. Admin can decide / approve a new driver.Admin can black list a driver based on customer feedback.\par
+
+\pard\sa160\sl259\slmult0\par
+\b\fs28 Detailed functional requirements\b0\fs24\par
+1.\b  Login \b0 facility with two authentication such as captcha and a picture [OTP via email]\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0 login page should contain title ,user name text feild,user name entering box,password text feild,password input feild,submit button,link to registration page,link to forget password feild.\par
+
+\pard\sa160\sl259\slmult0 2. \b Registration\b0\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0 Registration page should have collect details given below:-\par
+
+\pard\sa160\sl259\slmult0 2.1 First Name [ required min length 1, maxlength (20) ]\par
+2.2 Last Name [cannot contain numbers , maxlength (20)]\par
+2.3 Date of birth [ date ] [required]\par
+2.4 Gender [ dropdown (male,female,other) ][required]\par
+2.5 Place [required] [max length(25)]\par
+2.6 Pincode [number ] [6 digits min & max]\par
+2.7  Email [unique] [ validation for email]\par
+2.8 Phone Number [Unique] [ maximum of 10 numbers ] + [country code] [ referd in requiremtnt 1.2 ]\par
+2.9 password [required][minlength(6) include special ACharacters, Uppercase & Lower Case & Number]\par
+2.10 Confirm password\par
+ User must fill a detailed form to register for services.it should include [ user Details component ]\par
+2.11 Phone number[minimum and maximum length 10] [phone number] refered as foreign key\par
+2.12 Register button to save all data and check all mandotary feilds are filled.\par
+\b HOME PAGE\b0\par
+3. Search Option\par
+3.1 User should see the availability of drivers in his/her area.\par
+3.2 should provide a live location.\par
+3.3 Cab driver details should be provided.\par
+\par
+4. Booking\par
+4.1 Enter their destination to help in estimating the fare\par
+4.2 View the available drivers, their information and the details of the car they drive\par
+4.3 Cancel trips if necessary\par
+4.4 Rate and add a tip for the driver if the service was great\par
+4.5 View price estimates\par
+4.6 Schedule a ride in advance\par
+4.7 Add multiple drop-off points\par
+4.8 Make payment for the trip they took\par
+\par
+5. Payment\par
+5.1 After the trip the payment should be shown.\par
+5.2 It should provide an option to pay extra as a tip for the driver.\par
+5.3 Provide an option for UPI/ debit or credit card payment.\par
+5.4 A invoice should be provided to the customer with riding distance,time duration and amount of ride.\par
+\par
+6. Feedback\par
+6.1 Show the customer a feedback page.\par
+6.2 Customer is needed to provide rating for the driver if he/she likes the ride or not.\par
+6.3 Book the driver if interested for next ride.\par
+6.4 Provide a review of the driver by the customer.\par
+\par
+7. My profile\par
+7.1 List all details of user's full name ,email,phone number,age....etc\par
+7.2 Edit profile link to edit profile page\par
+7.3 sign out button\par
+\par
+\f1 8. Track booking\par
+8.1 \fs22 A Customer shall be able to track the booking before it reaches him/her.\par
+8.2 A Customer shall see the phases from booking to delivery included: Waiting for confirmation, Confirmed, Preparation, Delivery.\par
+8.3 A Customer shall view details of the booking.\par
+8.4 A Customer shall be able to cancel the order before the delivery phase.\par
+\par
+\par
+\f0\fs24\par
+
+\pard\sa200\sl276\slmult1\b\fs28 Other requirements\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0\fs22 The system should have sign up and login options for each actors.\par
+{\pntext\f2\'B7\tab}Different login pages for driver and passenger\par
+{\pntext\f2\'B7\tab}Option to share your cab with other customers,sharing option.\par
+{\pntext\f2\'B7\tab}Option to pay tips for driver.\par
+{\pntext\f2\'B7\tab}Option to collect feedback from customer.\par
+{\pntext\f2\'B7\tab}Distance of travel  calculation using gps system google map.\par
+{\pntext\f2\'B7\tab}Option to add stops within the ride.\par
+{\pntext\f2\'B7\tab}Option to select starting point and final point while booking ride.\par
+{\pntext\f2\'B7\tab}Driver can set thier status like available or not available.\par
+{\pntext\f2\'B7\tab}Option to select/search  car based on seat number,car model or by seeing car image.\par
+{\pntext\f2\'B7\tab}Option to log out.\par
+{\pntext\f2\'B7\tab}Customer profile.\par
+{\pntext\f2\'B7\tab}Driver profile.\par
+
+\pard\sa200\sl276\slmult1\par
+}
+ 
